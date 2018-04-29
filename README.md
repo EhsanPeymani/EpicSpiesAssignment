@@ -2,6 +2,8 @@
 
 This is a small pet project that I did while doing the course C# fundamentals by ASP.NET on DevU.com.
 
+The idea is to work with DateTime and TimeSpan types as well as celender control of ASP.NET.
+
 The business rules are as follows:
 
 requirement: Our logo should only be 190 px tall!
