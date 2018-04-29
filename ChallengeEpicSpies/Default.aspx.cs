@@ -52,8 +52,9 @@ namespace ChallengeEpicSpies
             }
             else
             {
-                result = "Error! You must allow at least 2 weeks between assignments." + 
-                    "<br />     The assignment end date must be after the assignment start date.";
+                result = "Error! Either of following happened: " +
+                         "<br /> You must allow at least 2 weeks between assignments." + 
+                         "<br /> The assignment end date must be after the assignment start date.";
             }
 
             resultLabel.Text = result;        
